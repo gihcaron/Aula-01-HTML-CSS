@@ -30,10 +30,10 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center; /*  vertical*/
-    align-self: center /*horizontal*/
+    align-items: center; /*horizontal*/
 } 
 
-p1{
+h3{
     font-family: "Poppins", sans-serif; 
     color:#fcfbfc; 
 }
