@@ -28,10 +28,16 @@ header {
     border-radius: 6px;
     height: 150px;
     display: flex;
-    flex-direction: column;
-    justify-content: center; /*  vertical*/
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center; /*horizontal*/
 } 
+
+#image-profile {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
 
 #principal {
     background-color:#ffffff;
@@ -44,17 +50,39 @@ header {
 }
 
 main {
-    background-color: #FAd105;
+    background-color: #3e809a;
     border-radius: 6px;
     height: 100%;
     width: 74%;
 }
 
 aside {
-    background-color:#efafc0;
+    background-color:#03647f;
     border-radius: 6px;
     height: 100%;
     width: 25%;
+}
+
+footer {
+background-color: #023664;
+border-radius: 6px;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+footer p2 {
+    color: #ffffff;
+    font-size: 0.7rem; 
+}
+
+footer a{
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
 }
 
 h3{
